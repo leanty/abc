@@ -2,8 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://leanty.github.io",
-    base: "/abc",
+    url: "https://leanty.github.io/abc",
     title: "AstroPaper",
     description: "A minimal, responsive and SEO-friendly Astro blog theme.",
     author: "Sat Naing",
@@ -25,7 +24,7 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/leanty/abc/edit/main/",
     },
     search: "pagefind",
   },
